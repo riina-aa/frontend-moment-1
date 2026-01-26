@@ -64,9 +64,9 @@ header img {
     z-index: 1;
     top: 0;
     right: 0;
-    width: 300px;
+    width: 350px;
     height: 100%;
-    padding: 4rem;
+    padding: 3rem;
 }
 
 .menu ul {
@@ -109,4 +109,22 @@ header img {
     font-size: 3em;
     font-style: italic;
     font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.text h2 {
+    font-size: 3em;
+    font-family: "Bricolage Grotesque", sans-serif;
+    margin-bottom: 2rem;
+}
+
+.column-text {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    line-height: 1.5em;
+}
+
+.column-text p {
+    max-width: 35ch;
+    font-family: "Raleway", sans-serif;
 }
